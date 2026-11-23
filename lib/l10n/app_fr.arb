@@ -1,0 +1,536 @@
+{
+  "@@locale": "fr",
+  "appName": "Casa Pointage",
+  "languageFrench": "Français",
+  "languageArabic": "العربية",
+
+  "loginHeroSubtitle": "Espace superviseur · personnel des délégataires",
+  "loginHeroTagline": "Pointage du personnel\npar reconnaissance faciale.",
+  "loginTitle": "Se connecter",
+  "loginIdLabel": "Identifiant",
+  "loginPasswordLabel": "Mot de passe",
+  "loginShowPassword": "Afficher le mot de passe",
+  "loginHidePassword": "Masquer le mot de passe",
+  "loginSubmit": "Se connecter",
+  "loginLoading": "Connexion…",
+  "loginFooter": "Application réservée aux superviseurs des délégataires.\nMot de passe oublié ? Contactez le service RH de votre délégataire.",
+  "loginErrorBoth": "Saisissez votre identifiant et votre mot de passe.",
+  "loginErrorId": "Saisissez votre identifiant.",
+  "loginErrorPassword": "Saisissez votre mot de passe.",
+  "loginErrorInvalid": "Identifiant ou mot de passe incorrect.",
+  "faceRecognized": "Visage reconnu",
+  "arrivalAt": "Arrivée {time}",
+  "@arrivalAt": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "tabsLabel": "Navigation principale",
+  "tabTeam": "Équipe",
+  "tabEnrolment": "Enrôlement",
+  "tabHistory": "Historique",
+  "tabProfile": "Profil",
+  "tabClockIn": "Pointer",
+  "tabClockInSemantic": "Pointer une personne",
+
+  "shiftMorning": "Poste du matin",
+  "shiftAfternoon": "Poste de l'après-midi",
+  "shiftNight": "Poste de nuit",
+
+  "functionSupervisor": "Superviseur",
+  "functionSweeperMale": "Balayeur",
+  "functionSweeperFemale": "Balayeuse",
+  "functionDriver": "Chauffeur",
+  "functionLoader": "Ripeur",
+  "functionSweeperDriver": "Conducteur de balayeuse",
+  "functionTeamLead": "Chef d'équipe",
+
+  "syncOffline": "Hors connexion",
+  "syncOfflinePending": "Hors connexion · {count}",
+  "@syncOfflinePending": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "syncPending": "{count} en attente",
+  "@syncPending": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "syncDone": "Synchronisé RH",
+
+  "teamPeopleClockedIn": "personnes pointées",
+  "teamClockMe": "Me pointer",
+  "teamClockMyExit": "Ma sortie",
+  "teamMeClockedIn": "Vous êtes pointé",
+  "teamMeNotClockedIn": "Vous n'avez pas encore pointé",
+  "teamMeClockBeforeTeam": "Pointez-vous avant votre équipe",
+  "teamMeEnrolFirst": "Enregistrez d'abord votre visage",
+  "teamMeSupervisorDaily": "Le superviseur pointe aussi chaque jour",
+  "teamMeArrival": "Arrivée à {time}",
+  "@teamMeArrival": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "teamMeExit": "sortie à {time}",
+  "@teamMeExit": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "teamSearchLabel": "Rechercher une personne",
+  "teamSearchHint": "Nom, matricule, fonction",
+  "teamEmpty": "Aucune personne ne correspond.",
+  "teamArrivedAt": "Arrivé à {time}",
+  "@teamArrivedAt": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "teamManualTag": "manuel",
+
+  "filterAll": "Tous",
+  "filterNotClocked": "Non pointés",
+  "filterPresent": "Présents",
+  "filterLate": "Retards",
+  "filterAbsent": "Absents",
+  "filterOut": "Sortis",
+  "filterNotEnrolled": "Non enrôlés",
+
+  "statusPresent": "Présent",
+  "statusOut": "Sorti",
+  "statusLate": "En retard",
+  "statusAbsentJustified": "Absent justifié",
+  "statusNotClocked": "Non pointé",
+  "statusNotEnrolled": "Visage non enrôlé",
+  "statusPendingSync": "En attente d'envoi",
+
+  "absenceSickness": "Maladie",
+  "absenceLeave": "Congé",
+  "absenceFamilyEvent": "Événement familial",
+  "absenceOther": "Autre",
+
+  "comingSoon": "Bientôt disponible",
+
+  "scanTitleTeam": "Pointer une personne",
+  "scanClose": "Fermer",
+  "scanFlipCamera": "Changer de caméra",
+  "faceHintMultiple": "Un seul visage dans le cadre",
+  "faceHintTooFar": "Rapprochez-vous",
+  "faceHintTooClose": "Éloignez-vous un peu",
+  "faceHintCenter": "Centrez le visage dans l'ovale",
+  "faceHintStraight": "Regardez droit devant",
+  "faceHintLight": "Il faut plus de lumière",
+  "scanDetectTitle": "Placez le visage dans le cadre",
+  "scanDetectHint": "Bonne lumière, sans casquette ni lunettes de soleil",
+  "scanAnalyseTitle": "Analyse du visage…",
+  "scanAnalyseHint": "Ne bougez pas",
+  "scanLiveTitle": "Vérification de présence réelle",
+  "scanTurnFirst": "Tournez la tête d'un côté",
+  "scanTurnSecond": "Maintenant de l'autre côté",
+  "scanFailedTitle": "Visage non reconnu",
+  "scanFailedHint": "Réessayez ou utilisez le pointage manuel",
+  "scanMatchScore": "Correspondance {score} %",
+  "@scanMatchScore": {
+    "placeholders": {
+      "score": {"type": "int"}
+    }
+  },
+  "scanAtDepot": "Au {depot}",
+  "@scanAtDepot": {
+    "placeholders": {
+      "depot": {"type": "String"}
+    }
+  },
+  "scanOutsideDepot": "Hors du dépôt",
+  "scanAssignment": "Affectation du jour",
+  "scanEdit": "Modifier",
+  "scanLateBy": "Retard de {amount} · motif facultatif",
+  "@scanLateBy": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+  "unitHour": "h",
+  "lateAmount": "{minutes} min · {hours}",
+  "@lateAmount": {
+    "placeholders": {
+      "minutes": {"type": "int"},
+      "hours": {"type": "String"}
+    }
+  },
+  "personLateBy": "Retard : {amount}",
+  "@personLateBy": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+  "teamArrivedLate": "Arrivé à {time} · retard {amount}",
+  "@teamArrivedLate": {
+    "placeholders": {
+      "time": {"type": "String"},
+      "amount": {"type": "String"}
+    }
+  },
+  "personShiftStart": "Heure début circuit",
+  "personShiftEnd": "Heure fin circuit",
+  "lateReasonTransport": "Transport",
+  "lateReasonPersonal": "Raison personnelle",
+  "lateReasonMedical": "Raison médicale",
+  "lateReasonOther": "Autre",
+  "scanConfirmArrival": "Confirmer l'arrivée à {time}",
+  "@scanConfirmArrival": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "scanConfirmExit": "Confirmer la sortie à {time}",
+  "@scanConfirmExit": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "scanNotThisPerson": "Ce n'est pas la bonne personne",
+  "scanRetry": "Réessayer",
+  "scanManual": "Pointage manuel",
+  "scanManualLink": "Visage non reconnu ? Pointage manuel",
+
+  "personToday": "Aujourd'hui",
+  "personArrival": "Arrivée",
+  "personExit": "Sortie",
+  "personNotYet": "Pas encore",
+  "personAssignment": "Affectation",
+  "personLateReason": "Motif du retard",
+  "personAbsence": "Absence",
+  "personMethodFace": "Visage {score} %",
+  "@personMethodFace": {
+    "placeholders": {
+      "score": {"type": "int"}
+    }
+  },
+  "personMethodManual": "Manuel · {reason}",
+  "@personMethodManual": {
+    "placeholders": {
+      "reason": {"type": "String"}
+    }
+  },
+  "personManualArrival": "Pointer manuellement",
+  "personManualExit": "Pointer la sortie manuellement",
+  "personEnrol": "Enrôler le visage",
+  "personDeclareAbsence": "Déclarer une absence",
+  "personReportAnomaly": "Signaler une anomalie",
+  "personNotFound": "Personne introuvable",
+  "personClockArrival": "Pointer l'arrivée",
+  "personClockExit": "Pointer la sortie",
+  "personFaceEnrolled": "Visage enregistré",
+  "personFaceMissing": "Visage non enregistré",
+  "personFaceRedo": "Refaire",
+  "personFaceDo": "Enregistrer",
+  "personHistory": "Historique",
+  "personHistoryTitle": "Historique des 14 derniers jours",
+  "personRest": "Repos",
+  "paginationPrevious": "Page précédente",
+  "paginationNext": "Page suivante",
+  "paginationPage": "Page {page}",
+  "@paginationPage": {
+    "placeholders": {
+      "page": {"type": "int"}
+    }
+  },
+  "paginationRange": "{from}–{to} sur {total}",
+  "@paginationRange": {
+    "placeholders": {
+      "from": {"type": "int"},
+      "to": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "teamSearchClear": "Effacer la recherche",
+  "teamRefresh": "Rafraîchir",
+
+  "syncScreenTitle": "Synchronisation",
+  "syncConnected": "Connecté au réseau",
+  "syncOfflineTitle": "Hors ligne",
+  "syncOfflineHint": "Les données restent sur le téléphone et partent dès le retour du réseau.",
+  "syncListTitle": "En attente d'envoi",
+  "syncEmpty": "Tout est envoyé au module RH",
+  "syncNow": "Envoyer maintenant",
+  "syncSent": "Envoi terminé",
+  "syncItemArrival": "Arrivée {time}",
+  "@syncItemArrival": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "syncItemExit": "Sortie {time}",
+  "@syncItemExit": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "syncItemAbsence": "Absence · {reason}",
+  "@syncItemAbsence": {
+    "placeholders": {
+      "reason": {"type": "String"}
+    }
+  },
+  "syncItemAnomaly": "Anomalie · {kind}",
+  "@syncItemAnomaly": {
+    "placeholders": {
+      "kind": {"type": "String"}
+    }
+  },
+
+  "profileSector": "Secteur",
+  "profileDelegate": "Délégataire",
+  "profileDepot": "Lieu de pointage",
+  "profileLanguage": "Langue",
+  "profileLanguageValue": "Langue : {language}",
+  "@profileLanguageValue": {
+    "placeholders": {
+      "language": {"type": "String"}
+    }
+  },
+  "profileTeam": "Équipe",
+  "profileTeamCount": "{count} personnes",
+  "@profileTeamCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "profileSynced": "Synchronisé avec le module RH",
+  "profileSyncedHint": "Enrôlements et pointages transmis.",
+  "profileOffline": "Hors connexion",
+  "profileOfflineHint": "Les pointages restent sur le téléphone jusqu'au retour du réseau.",
+  "profilePending": "{count} élément(s) en attente",
+  "@profilePending": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "profilePendingHint": "Envoi automatique en cours.",
+  "profileSend": "Envoyer",
+  "profileHelp": "Aide",
+  "profileLogoutConfirm": "Déconnexion",
+  "profileLogoutPending": "Attention : {count} élément(s) ne sont pas encore envoyés.",
+  "@profileLogoutPending": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "helpEnrolLead": "1. Enregistrer les visages :",
+  "helpEnrolText": "une seule fois par personne, avec son accord, depuis l'onglet Enrôlement.",
+  "helpClockLead": "2. Pointer :",
+  "helpClockText": "chaque jour, la personne se présente à vous. Touchez « Pointer » et placez son visage dans le cadre. L'arrivée ou la sortie est détectée automatiquement.",
+  "helpSelfLead": "3. Vous aussi :",
+  "helpSelfText": "pointez-vous avec « Me pointer ».",
+  "helpFailedLead": "Visage non reconnu :",
+  "helpFailedText": "réessayez avec une meilleure lumière, sinon utilisez le pointage manuel (photo et motif obligatoires).",
+  "profileVersion": "Casa Pointage · version {version}",
+  "@profileVersion": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+  "profileLogout": "Se déconnecter",
+  "profileLogoutTitle": "Se déconnecter ?",
+  "profileLogoutBody": "Vous devrez saisir à nouveau votre identifiant et votre mot de passe.",
+  "profileCancel": "Annuler",
+
+  "historyTitle": "Historique des pointages",
+  "historyTodayShort": "Auj.",
+  "historyFilterManual": "Manuels",
+  "historyLateWord": "en retard",
+  "historyFace": "visage",
+  "historyToday": "Aujourd'hui",
+  "historyYesterday": "Hier",
+  "historyPresentCount": "{present} / {total} présents",
+  "@historyPresentCount": {
+    "placeholders": {
+      "present": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "historyLate": "{count} en retard",
+  "@historyLate": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "historyAbsent": "{count} absents",
+  "@historyAbsent": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "historyMissing": "{count} non pointés",
+  "@historyMissing": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "historySubtitle": "7 derniers jours",
+
+  "enrolTitle": "Enrôlement des visages",
+  "enrolProgress": "{done} / {total} personnes enregistrées",
+  "@enrolProgress": {
+    "placeholders": {
+      "done": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "enrolSectionTodo": "À enregistrer",
+  "enrolSectionDone": "Enregistrés",
+  "enrolAction": "Enregistrer",
+  "enrolYou": "(vous)",
+  "enrolRegistered": "enregistré",
+  "enrolRegisteredOn": "enregistré le {date}",
+  "@enrolRegisteredOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "personFaceDate": "le {date}",
+  "@personFaceDate": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "enrolAllDone": "Toute l'équipe est enregistrée.",
+  "faceEnrolTitle": "Enrôler le visage",
+  "enrolConsentTitle": "Enregistrement du visage",
+  "enrolConsentFace": "Le visage est enregistré une seule fois, puis reconnu à chaque pointage.",
+  "enrolConsentShield": "Seul un gabarit chiffré est conservé dans le module RH, pas de photo.",
+  "enrolConsentLock": "Il sert uniquement au pointage de présence.",
+  "enrolConsentSelf": "J'accepte l'enregistrement de mon visage pour le pointage.",
+  "enrolConsentTeam": "La personne a été informée et accepte l'enregistrement de son visage pour le pointage.",
+  "enrolConsentRequired": "Le consentement de la personne est obligatoire.",
+  "enrolBegin": "Commencer",
+  "enrolScanMove": "Bougez lentement la tête",
+  "enrolScanCircle": "pour compléter le cercle",
+  "enrolScanCircleAgain": "pour compléter le cercle une seconde fois",
+  "enrolScanFirstDone": "Premier scan terminé",
+  "enrolScanOneMore": "Encore un tour pour finaliser",
+  "enrolSaving": "Envoi au module RH…",
+  "enrolSaved": "Visage enregistré",
+  "enrolSentHr": "Envoyé au module RH",
+  "enrolQualityLow": "Capture insuffisante, recommencez le scan.",
+  "enrolPoseFront": "Regardez droit devant",
+  "enrolPoseLeft": "Tournez doucement la tête à gauche",
+  "enrolPoseRight": "Tournez doucement la tête à droite",
+  "enrolStep": "Étape {current} sur {total}",
+  "@enrolStep": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "enrolDone": "Visage enrôlé",
+  "enrolDoneHint": "{name} peut maintenant pointer par reconnaissance faciale.",
+  "@enrolDoneHint": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "enrolFinish": "Terminer",
+
+  "anomalyTitle": "Signaler une anomalie",
+  "anomalyStepKind": "1. Type d'anomalie",
+  "anomalyStepComment": "Commentaire",
+  "anomalyDay": "Jour concerné",
+  "anomalyTime": "Heure correcte",
+  "anomalyClockError": "Erreur de pointage",
+  "anomalyWrongAssignment": "Mauvaise affectation",
+  "anomalyEquipment": "Matériel défectueux",
+  "anomalyIncident": "Accident ou incident",
+  "anomalyOther": "Autre",
+  "anomalyCommentHint": "Ex. a oublié de pointer sa sortie hier",
+  "anomalySubmit": "Transmettre au module RH",
+  "anomalyIncomplete": "Choisissez le type d'anomalie",
+  "anomalyIncompleteComment": "Décrivez l'anomalie",
+  "anomalySaved": "Anomalie signalée",
+  "personAnomalies": "Anomalie signalée",
+
+  "absenceTitle": "Déclarer une absence",
+  "absenceStepReason": "1. Motif",
+  "absenceStepDates": "2. Période",
+  "absenceStepComment": "3. Commentaire (facultatif)",
+  "absenceFrom": "Du",
+  "absenceTo": "Au",
+  "absenceCommentHint": "Ex. certificat médical remis",
+  "absenceSubmit": "Transmettre au module RH",
+  "absenceIncomplete": "Choisissez un motif",
+  "absenceSaved": "Absence déclarée",
+
+  "manualTitle": "Pointage manuel",
+  "manualSubtitle": "Exception · contrôlée par le service RH",
+  "manualWarning": "À utiliser seulement si la reconnaissance échoue. Une photo et un motif sont obligatoires.",
+  "manualLabelPerson": "Personne",
+  "manualLabelReason": "Motif",
+  "manualLabelPhoto": "Photo de la personne",
+  "manualPhotoAdded": "Photo ajoutée",
+  "manualPhotoRemove": "Retirer la photo",
+  "manualKindArrival": "arrivée",
+  "manualKindExit": "sortie",
+  "manualErrorPerson": "Choisissez la personne.",
+  "manualErrorReason": "Choisissez un motif.",
+  "manualErrorPhoto": "La photo est obligatoire pour un pointage manuel.",
+  "manualConfirm": "Enregistrer le pointage à {time}",
+  "@manualConfirm": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "manualStepPerson": "1. Personne",
+  "manualStepReason": "2. Motif du pointage manuel",
+  "manualStepPhoto": "3. Photo de preuve",
+  "manualChange": "Changer",
+  "manualNoResult": "Aucune personne trouvée",
+  "manualReasonFaceFailed": "Visage non reconnu",
+  "manualReasonNotEnrolled": "Visage non enrôlé",
+  "manualReasonCamera": "Problème de caméra",
+  "manualReasonOther": "Autre",
+  "manualPhotoHint": "Photographiez la personne : la photo justifie le pointage manuel.",
+  "manualPhotoTake": "Prendre la photo",
+  "manualPhotoRetake": "Reprendre la photo",
+  "manualPhotoError": "Impossible d'ouvrir l'appareil photo",
+  "manualIncomplete": "Choisissez la personne, le motif et prenez la photo",
+
+  "assignmentManualSweeping": "Balayage manuel",
+  "assignmentMechanicalSweeping": "Balayage mécanique",
+  "assignmentCollection": "Collecte des déchets ménagers et assimilés",
+  "assignmentSupervision": "Encadrement du secteur",
+  "assignmentCircuit": "Circuit",
+  "assignmentCircuitLine": "Circuit {circuit}",
+  "@assignmentCircuitLine": {
+    "placeholders": {
+      "circuit": {"type": "String"}
+    }
+  },
+  "assignmentVehicle": "Chariot ou véhicule",
+  "assignmentReadRfid": "Lire le tag RFID du chariot ou du véhicule",
+  "assignmentRfidHint": "Approchez le lecteur du tag RFID du chariot ou du véhicule",
+  "assignmentSave": "Valider",
+  "assignmentChanged": "Affectation modifiée",
+
+  "doneArrival": "Arrivée pointée",
+  "doneExit": "Sortie pointée",
+  "doneManualSuffix": "(manuel)",
+  "doneSaved": "Enregistré et transmis au module RH.",
+  "doneSavedOffline": "Enregistré sur le téléphone. Envoi au module RH dès le retour du réseau.",
+  "doneNext": "Pointer la personne suivante",
+  "doneBack": "Retour à l'équipe",
+  "loadErrorTitle": "Impossible de charger les données",
+  "loadRetry": "Réessayer",
+  "kioskTitle": "Pointage",
+  "kioskLoading": "Chargement des visages…",
+  "kioskSending": "Enregistrement du pointage…",
+  "kioskNotRecognised": "Visage non reconnu, réessayez",
+  "kioskNoFaces": "Aucun visage enregistré pour ce dépôt.",
+  "kioskArrival": "Arrivée pointée",
+  "kioskExit": "Sortie pointée",
+  "kioskFarFromDepot": "Pointé en dehors du dépôt"
+}
